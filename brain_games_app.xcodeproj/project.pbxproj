@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90342E952999981E00539BAD /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90342E942999981E00539BAD /* MatchedView.swift */; };
+		90342E97299998BF00539BAD /* Home View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90342E96299998BF00539BAD /* Home View.swift */; };
+		90342E9A2999D42D00539BAD /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90342E992999D42D00539BAD /* BlobView.swift */; };
+		90342E9D2999D45100539BAD /* FeaturedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90342E9C2999D45100539BAD /* FeaturedItems.swift */; };
+		90342E9F2999D46200539BAD /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90342E9E2999D46200539BAD /* HexagonView.swift */; };
+		90342EA12999D4A000539BAD /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90342EA02999D4A000539BAD /* CourseItem.swift */; };
+		90342EA32999D5E300539BAD /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90342EA22999D5E300539BAD /* CourseView.swift */; };
 		903D5CC4299187520032DD52 /* brain_games_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D5CC3299187520032DD52 /* brain_games_appApp.swift */; };
 		903D5CC6299187520032DD52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D5CC5299187520032DD52 /* ContentView.swift */; };
-		903D5CC8299187590032DD52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903D5CC7299187590032DD52 /* Assets.xcassets */; };
 		903D5CCC299187590032DD52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903D5CCB299187590032DD52 /* Preview Assets.xcassets */; };
+		90D01EF729998D8000EA3065 /* Styles in Resources */ = {isa = PBXBuildFile; fileRef = 90D01EF629998D8000EA3065 /* Styles */; };
+		90D01EF929998DBD00EA3065 /* Navigation in Resources */ = {isa = PBXBuildFile; fileRef = 90D01EF829998DBD00EA3065 /* Navigation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90342E942999981E00539BAD /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
+		90342E96299998BF00539BAD /* Home View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home View.swift"; sourceTree = "<group>"; };
+		90342E992999D42D00539BAD /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
+		90342E9C2999D45100539BAD /* FeaturedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItems.swift; sourceTree = "<group>"; };
+		90342E9E2999D46200539BAD /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		90342EA02999D4A000539BAD /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
+		90342EA22999D5E300539BAD /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		903D5CC0299187520032DD52 /* brain_games_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brain_games_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		903D5CC3299187520032DD52 /* brain_games_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brain_games_appApp.swift; sourceTree = "<group>"; };
 		903D5CC5299187520032DD52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		903D5CC7299187590032DD52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		903D5CC9299187590032DD52 /* brain_games_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = brain_games_app.entitlements; sourceTree = "<group>"; };
 		903D5CCB299187590032DD52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90D01EF629998D8000EA3065 /* Styles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Styles; sourceTree = "<group>"; };
+		90D01EF829998DBD00EA3065 /* Navigation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Navigation; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,10 +49,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90342E982999D40B00539BAD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				90342E992999D42D00539BAD /* BlobView.swift */,
+				90342E9C2999D45100539BAD /* FeaturedItems.swift */,
+				90342E9E2999D46200539BAD /* HexagonView.swift */,
+				90342EA02999D4A000539BAD /* CourseItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		903D5CB7299187520032DD52 = {
 			isa = PBXGroup;
 			children = (
 				903D5CC2299187520032DD52 /* brain_games_app */,
+				903D5CCA299187590032DD52 /* Preview Content */,
 				903D5CC1299187520032DD52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,11 +80,13 @@
 		903D5CC2299187520032DD52 /* brain_games_app */ = {
 			isa = PBXGroup;
 			children = (
+				90342E982999D40B00539BAD /* Components */,
+				90D01EFC299996AF00EA3065 /* Views */,
 				903D5CC3299187520032DD52 /* brain_games_appApp.swift */,
+				90D01EF829998DBD00EA3065 /* Navigation */,
 				903D5CC5299187520032DD52 /* ContentView.swift */,
-				903D5CC7299187590032DD52 /* Assets.xcassets */,
 				903D5CC9299187590032DD52 /* brain_games_app.entitlements */,
-				903D5CCA299187590032DD52 /* Preview Content */,
+				90D01EF629998D8000EA3065 /* Styles */,
 			);
 			path = brain_games_app;
 			sourceTree = "<group>";
@@ -68,6 +98,17 @@
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
+		};
+		90D01EFC299996AF00EA3065 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90342E942999981E00539BAD /* MatchedView.swift */,
+				90342E96299998BF00539BAD /* Home View.swift */,
+				90342EA22999D5E300539BAD /* CourseView.swift */,
+			);
+			name = Views;
+			path = brain_games_app/Views;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -127,8 +168,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D01EF929998DBD00EA3065 /* Navigation in Resources */,
+				90D01EF729998D8000EA3065 /* Styles in Resources */,
 				903D5CCC299187590032DD52 /* Preview Assets.xcassets in Resources */,
-				903D5CC8299187590032DD52 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90342E9D2999D45100539BAD /* FeaturedItems.swift in Sources */,
+				90342E9F2999D46200539BAD /* HexagonView.swift in Sources */,
+				90342EA32999D5E300539BAD /* CourseView.swift in Sources */,
+				90342E9A2999D42D00539BAD /* BlobView.swift in Sources */,
+				90342EA12999D4A000539BAD /* CourseItem.swift in Sources */,
 				903D5CC6299187520032DD52 /* ContentView.swift in Sources */,
+				90342E952999981E00539BAD /* MatchedView.swift in Sources */,
+				90342E97299998BF00539BAD /* Home View.swift in Sources */,
 				903D5CC4299187520032DD52 /* brain_games_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
